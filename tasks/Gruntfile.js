@@ -1,6 +1,7 @@
 module.exports = function (grunt) {
 	var bower = require('bower');
 	var wrench = require('wrench');
+	var goo = 'hahaha';
 
 	grunt.registerTask('todomvc-common', function () {
 		// For some reason, I began trusting Batman to be my test directory for
